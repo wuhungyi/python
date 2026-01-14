@@ -1,0 +1,202 @@
+[
+  {
+    "name": "PI-65",
+    "ip": "192.168.100.65",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_sop_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_sop_viewer.py"
+  },
+  {
+    "name": "PI-66",
+    "ip": "192.168.100.66",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_sop_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_sop_viewer.py"
+  },
+  {
+    "name": "PI-62",
+    "ip": "192.168.100.62",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+  },
+   {
+    "name": "PI-63",
+    "ip": "192.168.100.63",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer_p_ui_final.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer_p_ui_final.py"
+  },
+   {
+    "name": "PI-64",
+    "ip": "192.168.100.64",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+  },
+   {
+    "name": "PI-67",
+    "ip": "192.168.100.67",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+  },
+     {
+    "name": "PI-69",
+    "ip": "192.168.100.69",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+  },
+   {
+    "name": "PI-71",
+    "ip": "192.168.100.71",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-72",
+    "ip": "192.168.100.72",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-73",
+    "ip": "192.168.100.73",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-74",
+    "ip": "192.168.100.74",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-75",
+    "ip": "192.168.100.75",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-76",
+    "ip": "192.168.100.76",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-77",
+    "ip": "192.168.100.77",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-78",
+    "ip": "192.168.100.78",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-79",
+    "ip": "192.168.100.79",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-83",
+    "ip": "192.168.100.83",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-82",
+    "ip": "192.168.100.82",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-81",
+    "ip": "192.168.100.81",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ },
+   {
+    "name": "PI-04",
+    "ip": "192.168.101.4",
+    "user": "pi",
+    "password": "Rasp@berry",
+    "venv_activate": "/home/pi/dev/bin/activate",
+    "script_path": "/home/pi/pdf_viewer.py",
+    "display": ":0",
+    "process_keyword": "pdf_viewer.py"
+ }
+]
