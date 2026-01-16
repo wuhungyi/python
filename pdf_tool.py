@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 import tkinter as tk
 from tkinter import messagebox, filedialog
@@ -55,16 +53,9 @@ def update_ui():
 def log_opened_file(path):
     with open("log.txt", "a") as log_file:
         log_file.write(f"{path}\n")
-    try:
-        log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log.txt")
-        with open(log_path, "a", encoding="utf-8") as log_file:
-            log_file.write(f"{path}\n")
-    except Exception as e:
-        print(f"Log Error: {e}")
 
 def open_input():
     input_text = entry.get().strip()
-    input_text = entry.get().strip().strip('"').strip("'")
     lang = languages[current_lang]
 
     if input_text.startswith("http://") or input_text.startswith("https://"):
@@ -75,17 +66,10 @@ def open_input():
             messagebox.showerror(lang["error"], f"{lang['web_fail']}\n{e}")
     elif os.path.isfile(input_text) and input_text.lower().endswith('.pdf'):
         try:
-            if sys.platform == 'win32':
-                os.startfile(input_text)
-            elif sys.platform == 'darwin':
-                subprocess.run(['open', input_text], check=True)
-            else:
-                subprocess.run(['xdg-open', input_text], check=True)
+            subprocess.run(['xdg-open', input_text], check=True)
             log_opened_file(input_text)
-        except (subprocess.CalledProcessError, OSError):
+        except subprocess.CalledProcessError:
             messagebox.showerror(lang["error"], lang["open_fail"])
-        except Exception as e:
-            messagebox.showerror(lang["error"], f"{lang['open_fail']}\n{e}")
     else:
         messagebox.showerror(lang["error"], lang["invalid"])
 

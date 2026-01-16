@@ -286,7 +286,7 @@ HTML_TEMPLATE = """
             padding: 10px;
         }
         
-        .container { max-width: 1400px; margin: 0 auto; }
+        .container { max-width: 95%; margin: 0 auto; }
         
         .header {
             background: white;
@@ -415,13 +415,13 @@ HTML_TEMPLATE = """
         .devices-grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
+            gap: 5px;
         }
         
         .device-card {
             background: white;
             border-radius: 8px;
-            padding: 10px;
+            padding: 6px;
             box-shadow: 0 8px 24px rgba(0,0,0,0.2);
             transition: all 0.3s;
         }
@@ -521,35 +521,32 @@ HTML_TEMPLATE = """
             to { transform: translateX(0); opacity: 1; }
         }
         
-        @media (max-width: 1600px) { .devices-grid { grid-template-columns: repeat(4, 1fr); } }
-        @media (max-width: 1200px) { .devices-grid { grid-template-columns: repeat(3, 1fr); } }
-        @media (max-width: 900px) { .devices-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 1800px) { .devices-grid { grid-template-columns: repeat(4, 1fr); } }
+        @media (max-width: 1600px) { .devices-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 1200px) { .devices-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .devices-grid { grid-template-columns: 1fr; } }
         
         /* List View Styles */
-        .devices-list { display: flex; flex-direction: column; gap: 6px; }
+        .devices-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px; }
         .list-header {
-            display: grid;
-            grid-template-columns: 200px 120px 1fr 200px 180px;
-            padding: 0 15px;
-            font-weight: bold;
-            color: white;
-            font-size: 0.9em;
-            margin-bottom: 5px;
+            display: none;
         }
         .device-list-item {
             background: white;
             border-radius: 8px;
-            padding: 8px 15px;
+            padding: 4px 10px;
             display: grid;
             grid-template-columns: 200px 120px 1fr 200px 180px;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
         .list-col-actions { display: flex; gap: 5px; }
-        @media (max-width: 1000px) {
-            .list-header { display: none; }
+
+        @media (max-width: 1200px) {
+            .devices-list { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 800px) {
             .device-list-item { grid-template-columns: 1fr; gap: 8px; padding: 15px; }
             .list-col-actions { justify-content: flex-start; margin-top: 5px; }
         }
@@ -668,9 +665,9 @@ HTML_TEMPLATE = """
                             <span style="opacity:0.8">${device.script || '-'}</span>
                         </div>
                         <div class="list-col-stats" style="font-family:monospace; font-size:0.85em;">
-                            <span class="stats-running">${device.stats.running}</span><br>
-                            <span class="stats-online">${device.stats.online}</span> / 
-                            <span class="stats-offline">${device.stats.offline}</span>
+                            <div style="color:#065f46">▶️ 運行:${device.stats.running}</div>
+                            <div style="color:#92400e">🟡 在線:${device.stats.online}</div>
+                            <div style="color:#991b1b">🔴 離線:${device.stats.offline}</div>
                         </div>
                         <div class="list-col-actions">
                             <button class="device-btn btn-start" onclick="deviceAction('${device.name}', 'start')" title="啟動">▶️</button>
