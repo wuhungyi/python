@@ -17,4 +17,4 @@
 # Gemini code assist
 <img width="400" src="https://github.com/user-attachments/assets/10cf015a-7417-4a1f-bed3-9f492606afb2" />
 
-
+# 把它當成「看得懂你整個專案」的資深同事，直接叫他寫測試、修錯誤或解釋代碼。
